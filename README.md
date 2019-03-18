@@ -1,9 +1,9 @@
-#URL Shortener
+# URL Shortener
 An API to short URLs. You can send a long URL and get a short link to it.
 
 It was implemented using _SpringBoot_ and uses, by default, _Tomcat_.
 
-##API
+## API
 The API has two endpoints:
 
 ### 1. `/shorten` 
@@ -35,7 +35,7 @@ Date: Mon, 18 Mar 2019 15:56:55 GMT
 If the short url informed does not exist it will return a *404 Not Found*.
 
 
-##Settings
+## Settings
 The domain can be set in `resources/application.properties`:
 ```properties
 # Domain property
